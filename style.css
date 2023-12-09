@@ -1,0 +1,42 @@
+*{
+  box-sizing: content-box;
+}
+#delete-btn{
+  margin-top: 1rem;
+}
+#cont{
+  width: fit-content;
+  margin: 0 auto;
+  border: 5px groove rgb(142, 212, 28);
+  padding: 2rem;
+
+}
+h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-top:0 ;
+  margin-bottom: 3rem;
+  background:linear-gradient(to right, gold, aqua);
+}
+#input-el{
+  padding: .5rem;
+}
+#btn-el{
+  padding: .5rem;
+  font-weight: bold;
+  background: rgb(33, 226, 146);
+  color: white;
+  border: none;
+}
+#btn-el:hover{
+  background: gold;
+}
+#delete-btn{
+margin-left:10rem ; 
+background:linear-gradient(to right,aqua, gold);
+padding: .5rem;
+/* color: white; */
+font-weight: bold;
+border-radius: 5px;
+border: none;
+}
